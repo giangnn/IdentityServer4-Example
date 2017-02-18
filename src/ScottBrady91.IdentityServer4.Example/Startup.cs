@@ -18,7 +18,7 @@ namespace ScottBrady91.IdentityServer4.Example
         public void ConfigureServices(IServiceCollection services)
         {
             const string connectionString =
-                @"Data Source=(LocalDb)\MSSQLLocalDB;database=ScottBrady91.IdentityServer4.Example;trusted_connection=yes;";
+                @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServer4.Example;trusted_connection=yes;";
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             // ASP.NET Identity DbContext
